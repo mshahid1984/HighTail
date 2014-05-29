@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss
+        version = "2.0"
+        xmlns:yweather = "http://xml.weather.yahoo.com/ns/rss/1.0"
+        xmlns:geo = "http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <channel>
+        <title>Yahoo! Weather - Sunnyvale, CA</title>
+
+    </channel>
+</rss>
+        <!--api6.weather.bf1.yahoo.com Thu May 29 15:34:22 PST 2014 -->
