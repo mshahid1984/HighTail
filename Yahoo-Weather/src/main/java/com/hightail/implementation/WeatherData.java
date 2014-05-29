@@ -18,19 +18,20 @@ public class WeatherData implements YahooWeather {
 
         Validation validate = new Validation();
         validate.validateCityName(cityName);
-        Sender sender = new Sender();
-        String response = sender.requestSender(cityName);
-
-        return (Rss)Serializer.stringToJAXBElement(response,Rss.class);
+        return getResponseFromYahoo(cityName);
     }
 
     @Override
     public Rss getResponse(long cityId) {
         Validation validate = new Validation();
         validate.validateCityCode(cityId);
-        Sender sender = new Sender();
-        String response = sender.requestSender(cityId);
+        return getResponseFromYahoo(Long.toString(cityId));
 
+    }
+
+    private Rss getResponseFromYahoo(String code){
+        Sender sender = new Sender();
+        String response =  sender.requestSender(code);
         return (Rss)Serializer.stringToJAXBElement(response,Rss.class);
     }
 }
