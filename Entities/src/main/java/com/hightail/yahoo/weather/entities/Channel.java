@@ -8,4 +8,11 @@ package com.hightail.yahoo.weather.entities;
 public class Channel {
     @javax.xml.bind.annotation.XmlElementRef(name = "title", type = javax.xml.bind.JAXBElement.class)
     protected javax.xml.bind.JAXBElement<java.lang.String> title;
+
+    public javax.xml.bind.JAXBElement<java.lang.String> getTitle(){
+        return title;
+    }
+    public void setTitle(javax.xml.bind.JAXBElement<java.lang.String> value){
+        title = value;
+    }
 }
