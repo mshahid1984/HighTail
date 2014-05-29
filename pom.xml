@@ -11,11 +11,9 @@
     <name>HightailYahooWeatherAPI</name>
 <dependencies>
     <dependency>
-        <groupId>com.sun.xml.bind</groupId>
-        <artifactId>jaxb-impl</artifactId>
-        <version>2.2.7</version>
+        <groupId></groupId>
+        <artifactId></artifactId>
     </dependency>
-
 
 </dependencies>
 </project>

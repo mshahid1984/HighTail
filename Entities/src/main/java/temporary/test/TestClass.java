@@ -1,6 +1,6 @@
 package temporary.test;
 
-import com.hightail.yahoo.weather.entities.RSS;
+import com.hightail.yahoo.weather.entities.Rss;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -19,7 +19,7 @@ public class TestClass {
 
     public static void main(String[] str){
         InputStream inputStream = openFile("./Entities/src/main/resources/Test.xml");
-        JAXBElement<?> response = stringToJAXBElement(inputStream, RSS.class);
+        JAXBElement<?> response = stringToJAXBElement(inputStream, Rss.class);
         System.out.println();
     }
 
