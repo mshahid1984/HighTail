@@ -5,7 +5,101 @@
         xmlns:geo = "http://www.w3.org/2003/01/geo/wgs84_pos#">
     <channel>
         <title>Yahoo! Weather - Sunnyvale, CA</title>
-
+        <link>http://us.rd.yahoo.com/dailynews/rss/weather/Sunnyvale__CA/*http://weather.yahoo.com/forecast/USCA1116_f.html</link>
+        <description>Yahoo! Weather for Sunnyvale, CA</description>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 29 May 2014 7:56 am PDT</lastBuildDate>
+        <ttl>60</ttl>
+        <yweather:location
+                city = "Sunnyvale"
+                region = "CA"
+                country = "United States"/>
+        <yweather:units
+                temperature = "F"
+                distance = "mi"
+                pressure = "in"
+                speed = "mph"/>
+        <yweather:wind
+                chill = "63"
+                direction = "0"
+                speed = "0"/>
+        <yweather:atmosphere
+                humidity = "60"
+                visibility = "10"
+                pressure = "29.95"
+                rising = "1"/>
+        <yweather:astronomy sunrise = "5:48 am" sunset = "8:21 pm"/>
+        <image>
+            <title>Yahoo! Weather</title>
+            <width>142</width>
+            <height>18</height>
+            <link>http://weather.yahoo.com</link>
+            <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+        </image>
+        <item>
+            <title>Conditions for Sunnyvale, CA at 7:56 am PDT</title>
+            <geo:lat>37.37</geo:lat>
+            <geo:long>-122.04</geo:long>
+            <link>http://us.rd.yahoo.com/dailynews/rss/weather/Sunnyvale__CA/*http://weather.yahoo.com/forecast/USCA1116_f.html</link>
+            <pubDate>Thu, 29 May 2014 7:56 am PDT</pubDate>
+            <yweather:condition
+                    text = "Fair"
+                    code = "34"
+                    temp = "63"
+                    date = "Thu, 29 May 2014 7:56 am PDT"/>
+            <description>
+                <![CDATA[
+                <img src="http://l.yimg.com/a/i/us/we/52/34.gif"/><br />
+                <b>Current Conditions:</b><br />
+                Fair, 63 F<BR />
+                <BR /><b>Forecast:</b><BR />
+                Thu - Sunny. High: 82 Low: 53<br />
+                Fri - Sunny. High: 73 Low: 53<br />
+                Sat - Partly Cloudy. High: 72 Low: 52<br />
+                Sun - Sunny. High: 78 Low: 53<br />
+                Mon - Sunny. High: 77 Low: 54<br />
+                <br />
+                <a href="http://us.rd.yahoo.com/dailynews/rss/weather/Sunnyvale__CA/*http://weather.yahoo.com/forecast/USCA1116_f.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+                (provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+                ]]>
+            </description>
+            <yweather:forecast
+                    day = "Thu"
+                    date = "29 May 2014"
+                    low = "53"
+                    high = "82"
+                    text = "Sunny"
+                    code = "32"/>
+            <yweather:forecast
+                    day = "Fri"
+                    date = "30 May 2014"
+                    low = "53"
+                    high = "73"
+                    text = "Sunny"
+                    code = "32"/>
+            <yweather:forecast
+                    day = "Sat"
+                    date = "31 May 2014"
+                    low = "52"
+                    high = "72"
+                    text = "Partly Cloudy"
+                    code = "30"/>
+            <yweather:forecast
+                    day = "Sun"
+                    date = "1 Jun 2014"
+                    low = "53"
+                    high = "78"
+                    text = "Sunny"
+                    code = "32"/>
+            <yweather:forecast
+                    day = "Mon"
+                    date = "2 Jun 2014"
+                    low = "54"
+                    high = "77"
+                    text = "Sunny"
+                    code = "32"/>
+            <guid isPermaLink = "false">USCA1116_2014_06_02_7_00_PDT</guid>
+        </item>
     </channel>
 </rss>
         <!--api6.weather.bf1.yahoo.com Thu May 29 15:34:22 PST 2014 -->
