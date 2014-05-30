@@ -1,17 +1,15 @@
 package com.hightail.implementation;
 
-import com.hightail.interfaces.YahooWeather;
+import com.hightail.interfaces.WeatherInterface;
 import com.hightail.util.Sender;
 import com.hightail.util.Serializer;
 import com.hightail.validation.Validation;
 import com.hightail.yahoo.weather.entities.Rss;
 
-import javax.xml.bind.JAXBElement;
-
 /**
  * Created by mshahid on 5/30/14.
  */
-public class WeatherData implements YahooWeather {
+public class WeatherData implements WeatherInterface {
 
     @Override
     public Rss getResponse(String cityName) {

@@ -19,7 +19,7 @@ public class WeatherDataTest {
         softAssert.assertNotNull(response, "response should not be null");
         softAssert.assertNotNull(response.getChannel(), "Channel should not be null");
         softAssert.assertNotNull(response.getChannel().getTitle(), "Title should not be null");
-        softAssert.assertEquals(response.getChannel().getTitle(), "Yahoo! Weather - Sunnyvale, CA", "Title is not matching");
+        softAssert.assertEquals(response.getChannel().getTitle(), "Yahoo! WeatherType - Sunnyvale, CA", "Title is not matching");
         softAssert.assertNotNull(response.getChannel().getLocation(), "Location should not be null");
         softAssert.assertEquals(response.getChannel().getLocation().getCity(), "Sunnyvale", "cityName is not matching");
         softAssert.assertAll("com.hightail.implelemtation.test.WeatherDataTest.getResponsePositveTest");
